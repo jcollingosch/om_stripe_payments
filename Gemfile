@@ -9,12 +9,12 @@ gem 'rails', '4.2.3'
 gem 'sqlite3', group: [:development, :test]
 # use postgres as db in production
 gem 'pg', group: :production
-
 # Add 12 factor for heroku
 gem 'rails_12factor', group: :production
-
 # Add bootstrap
 gem 'bootstrap-sass'
+# Add stripe
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
